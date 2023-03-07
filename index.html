@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./cal.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+    <div class="flex flex-row items-center justify-center h-screen">
+        <div class="flex flex-col items-center justify-center">
+            <div class="justify-center m-5 border-4 p-2 srink-0">
+                <h1>Calculator Sample</h1>
+                <h2 id="display" class="border-2 p-2 mb-4 w- h-10 text-right">0</h2>
+                </center>
+                <button id="c1" class="bg-slate-500 w-12 rounded-md font-bold">1</button>
+
+                <button onclick="display(2)" id="c2" class="bg-slate-500 w-12 rounded-md font-bold">2</button>
+
+                <button onclick="display(3)" id="c3" class="bg-slate-500 w-12 rounded-md font-bold">3</button>
+                <button onclick="clr()" class="bg-slate-500 w-10 rounded-md font-bold">CE</button>
+                <br>
+                <br>
+                <button id="c4" class="bg-slate-500 w-12 rounded-md font-bold">4</button>
+
+                <button onclick="display(5)" id="c5" class="bg-slate-500 w-12 rounded-md font-bold">5</button>
+
+                <button onclick="display(6)" id="c6" class="bg-slate-500 w-12 rounded-md font-bold">6</button>
+                <button id="cAdd" class="bg-blue-700 w-10 rounded-md font-bold">+</button>
+                <br>
+                <br>
+                <button id="c7" class="bg-slate-500 w-12 rounded-md font-bold">7</button>
+                <button id="c8" class="bg-slate-500 w-12 rounded-md font-bold">8</button>
+                <button id="c9" class="bg-slate-500 w-12 rounded-md font-bold">9</button>
+                <button id="cMin" class="bg-red-700 w-10 rounded-md font-bold">-</button>
+                <br>
+                <br>
+
+                <button id="c0" class="bg-slate-500 w-12 rounded-md font-bold">0</button>
+                <button id="cdot" onclick="display('.')" class="bg-slate-500 w-10 rounded-md font-bold">.</button>
+                <button id="cDiv" class="bg-red-700 w-12 rounded-md font-bold">/</button>
+                <button id="cMul" class="bg-blue-700 w-12 rounded-md font-bold">x</button>
+
+                <br>
+                <br>
+                <button id="cEql" class="bg-blue-500 w-full h-8 rounded-md font-bold">=</button>
+
+
+            </div>
+            <p>Made with 💗 by name</p>
+        </div>
+    </div>
+    
+
+
+    <script src="./temp.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
